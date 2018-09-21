@@ -1,7 +1,7 @@
 {
   "name": "@gotham/gotham-logo",
   "version": "0.0.3",
-  "main": "index.js",
+  "main": "gotham-logo.js",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.1.0"

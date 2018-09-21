@@ -7,5 +7,5 @@
   "devDependencies": {
     "lerna": "^3.3.0"
   },
-  "private": false
+  "private": true
 }
