@@ -1,6 +1,6 @@
 {
   "name": "@gotham/gotham-footer",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "description": "Gotham standard footer.",
   "main": "gotham-footer.js",
   "scripts": {
