@@ -1,6 +1,6 @@
 {
   "name": "@gotham/gotham-logo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "gotham-logo.js",
   "license": "MIT",
   "dependencies": {
