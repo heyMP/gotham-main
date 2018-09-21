@@ -6,6 +6,9 @@
   "dependencies": {
     "@babel/core": "7.1.0"
   },
-  "gitHead": "f9df3976266b01e47859190959f9f04235fa74d2",
-  "private": false
+  "gitHead": "c3f321677497ef826b258e448f3b927fb884daf1",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
 }
