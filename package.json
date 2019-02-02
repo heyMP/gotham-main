@@ -1,6 +1,6 @@
 {
   "name": "@gotham/gotham-main",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "description": "Standard element library for Gotham University",
   "wcfactory": {
     "askSASS": true,
@@ -30,7 +30,7 @@
     "init": "lerna init",
     "test": "yarn run build && wct --configFile wct.conf.json test/index.html",
     "build": "lerna run build --no-bail",
-    "publish": "echo 'NOTICE: You must run `lerna publish` manually'",
+    "publish": "lerna publish",
     "test-suite-inject": "node scripts/test-suite-inject.js",
     "storybook": "start-storybook -c .storybook -p 9001 -s ./elements",
     "build-storybook": "build-storybook -c .storybook -o ../../storybooks/lrnwebcomponents",
