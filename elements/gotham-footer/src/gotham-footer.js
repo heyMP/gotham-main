@@ -3,6 +3,8 @@
  * @license Apache-2.0, see License.md for full text.
  */
 
+import "@gotham/gotham-logo/gotham-logo.js";
+
 /**
  * `gotham-footer`
  * ``
@@ -28,7 +30,7 @@ class GothamFooter extends HTMLElement {
    */
   constructor(delayRender = false) {
     super();
-    
+
     // set tag for later use
     this.tag = GothamFooter.tag;
     // map our imported properties json to real props on the element
@@ -39,8 +41,7 @@ class GothamFooter extends HTMLElement {
       if (obj.hasOwnProperty(p)) {
         if (this.hasAttribute(p)) {
           this[p] = this.getAttribute(p);
-        }
-        else {
+        } else {
           this.setAttribute(p, obj[p].value);
           this[p] = obj[p].value;
         }
@@ -67,7 +68,6 @@ class GothamFooter extends HTMLElement {
     if (this._queue.length) {
       this._processQueue();
     }
-    
   }
 
   _copyAttribute(name, to) {
@@ -110,7 +110,6 @@ class GothamFooter extends HTMLElement {
   //}
   // disconnectedCallback() {}
   // attributeChangedCallback(attr, oldValue, newValue) {}
-  
 }
 window.customElements.define(GothamFooter.tag, GothamFooter);
 export { GothamFooter };
