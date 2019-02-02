@@ -28,7 +28,7 @@ class GothamLogo extends HTMLElement {
    */
   constructor(delayRender = false) {
     super();
-    
+
     // set tag for later use
     this.tag = GothamLogo.tag;
     // map our imported properties json to real props on the element
@@ -39,8 +39,7 @@ class GothamLogo extends HTMLElement {
       if (obj.hasOwnProperty(p)) {
         if (this.hasAttribute(p)) {
           this[p] = this.getAttribute(p);
-        }
-        else {
+        } else {
           this.setAttribute(p, obj[p].value);
           this[p] = obj[p].value;
         }
@@ -67,7 +66,6 @@ class GothamLogo extends HTMLElement {
     if (this._queue.length) {
       this._processQueue();
     }
-    
   }
 
   _copyAttribute(name, to) {
@@ -110,7 +108,6 @@ class GothamLogo extends HTMLElement {
   //}
   // disconnectedCallback() {}
   // attributeChangedCallback(attr, oldValue, newValue) {}
-  
 }
 window.customElements.define(GothamLogo.tag, GothamLogo);
 export { GothamLogo };
