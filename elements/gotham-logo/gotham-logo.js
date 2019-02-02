@@ -19,6 +19,7 @@ class GothamLogo extends HTMLElement {
     return `
 <style>:host {
   display: block;
+  font-style: italic;
 }
 
 :host([hidden]) {

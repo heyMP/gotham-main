@@ -31,9 +31,10 @@ class GothamFooter extends HTMLElement {
   display: flex;
   width: auto;
   background-color: purple;
-  color: white;
+  color: burlywood;
   padding: 1em;
   flex-direction: column;
+  align-items: center;
 }
 
 .logo {
