@@ -1,0 +1,9 @@
+{
+  "subtitle": {
+    "name": "subtitle",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": false,
+    "observer": false
+  }
+}
